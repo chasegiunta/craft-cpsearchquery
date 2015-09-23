@@ -16,7 +16,7 @@ class CPSearchQueryPlugin extends BasePlugin {
 	}
 
 	public function getDeveloperUrl() {
-		return "http://github.com/ChaseGiunta/CPSearchQuery";
+		return "http://github.com/ChaseGiunta/craft-cpsearchquery";
 	}
 
 	public function hasCpSection() {
