@@ -10,8 +10,10 @@ $(".search input").val(getParameterByName("search"));
 $( document ).ready(function() {
   setTimeout(function(){
     var $search = $('.search input');
-    if ($search.val().length != 0) {
-      $(".search input").val($(".search input").val() + ' ').keypress();
+    if (typeof search !== 'undefined') {
+      if ($search.val().length != 0) {
+        $(".search input").val($(".search input").val() + ' ').keypress();
+      }
     }
-  }, 1000);
+}, 1000);
 });
